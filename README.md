@@ -1,2 +1,0 @@
-# sutlutheme
-theme code
