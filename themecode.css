@@ -40,7 +40,7 @@
 .callContainer_cb9592,
 .chatLayerWrapper__01ae2{
     background: rgba(0,0,0,.15) !important;
-    backdrop-filter: blur(12px) !important;
+    backdrop-filter: blur(4px) !important;
 }
 
 /* =========================
@@ -205,6 +205,7 @@ div[class*="contextMenu"]{
 .sidebar_c48ade,
 .sidebarList_c48ade{
     background: transparent !important;
+    backdrop-filter: blur(4px) !important;
 }
 
 /* Friends Page */
@@ -212,7 +213,8 @@ div[class*="contextMenu"]{
 .peopleColumn__133bf,
 .tabBody__133bf,
 .nowPlayingColumn__133bf{
-    background: transparent !important;  
+    background: transparent !important; 
+    backdrop-filter: blur(4px) !important;
 }
 
 /* Top Bar */
@@ -221,11 +223,13 @@ div[class*="contextMenu"]{
 .chatHeaderBar,
 .headerBar{
     background: transparent !important; 
+    backdrop-filter: blur(4px) !important;
 }
 
 /* Search */
 .searchBar__35e86{
     background: rgba(25,25,25,.20)!important;
+    backdrop-filter: blur(4px) !important;
 }
 
 /* DM List */
@@ -235,4 +239,5 @@ div[class*="contextMenu"]{
 [class*="sidebarList"],
 [class*="content"] > [class*="sidebar"]{
     background: transparent !important; 
+    backdrop-filter: blur(4px) !important;
 }
