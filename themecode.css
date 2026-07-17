@@ -173,24 +173,24 @@ div[class*="popout"]{
     transition:background .15s ease,
                backdrop-filter .15s ease;
 }
-/* Left Sidebar Glass */
+/* Sidebar Fix */
 
-.privateChannels__35e86,
-.scroller__99e7c,
-.container__2637a,
-.sidebar_c48ade,
-.sidebarList_c48ade,
-[class*="privateChannels"],
-[class*="sidebar"]{
-    background: rgba(20,20,20,.20) !important;
-    backdrop-filter: blur(18px) !important;
-    -webkit-backdrop-filter: blur(18px) !important;
+.sidebar_c48ade::before,
+.privateChannels__35e86::before,
+.container__2637a::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.15);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    pointer-events:none;
+    z-index:-1;
 }
 
-/* İçindeki elemanlar arka plan vermesin */
-.privateChannels__35e86 *,
-.scroller__99e7c *,
-.container__2637a *,
-.sidebar_c48ade *{
-    background-color: transparent !important;
+.sidebar_c48ade,
+.privateChannels__35e86,
+.container__2637a{
+    position:relative;
+    background:transparent !important;
 }
