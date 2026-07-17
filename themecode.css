@@ -239,5 +239,5 @@ div[class*="contextMenu"]{
 [class*="sidebarList"],
 [class*="content"] > [class*="sidebar"]{
     background: transparent !important; 
- background: rgba(0,0,0,0.002) !important;
+ background: rgba(0,0,0,0.02) !important;
 }
