@@ -227,3 +227,11 @@ div[class*="contextMenu"]{
     background: rgba(25,25,25,.20)!important;
     backdrop-filter: blur(14px)!important;
 }
+/* DM List */
+[class*="privateChannels"],
+[class*="privateChannels"] *,
+[class*="sidebar"] *,
+[class*="sidebarList"],
+[class*="content"] > [class*="sidebar"]{
+    background: transparent !important;
+}
