@@ -19,19 +19,32 @@
 .content__261d0{
     background: transparent !important;
 }
-
-/* =========================
-   Main Containers
-========================= */
+/* Chat */
 
 .chat_f75fb0,
-.chatContent_f75fb0,
-.container__133bf,
-.container__2637a,
+.chatContent_f75fb0{
+    background: rgba(0,0,0,.12) !important;
+    backdrop-filter: blur(12px) !important;
+}
+/* Left Sidebar */
+
 .privateChannels__35e86,
-.membersWrap_c8ffbb,
-.members_c8ffbb,
+.container__2637a,
 .sidebar_c48ade,
+.sidebarList_c48ade,
+.scroller__99e7c{
+    background: rgba(0,0,0,.12) !important;
+    backdrop-filter: blur(12px) !important;
+}
+/* Member List */
+
+.membersWrap_c8ffbb,
+.members_c8ffbb{
+    background: rgba(0,0,0,.12) !important;
+    backdrop-filter: blur(12px) !important;
+}
+/* Other Containers */
+
 .container__01ae2,
 .container_f369db,
 .wrapper_d852db,
@@ -39,9 +52,10 @@
 .wrapper_cb9592,
 .callContainer_cb9592,
 .chatLayerWrapper__01ae2{
-    background: rgba(0,0,0,.15) !important;
+    background: rgba(0,0,0,.12) !important;
     backdrop-filter: blur(12px) !important;
 }
+
 
 /* =========================
    Message Box
@@ -172,11 +186,4 @@ div[class*="popout"]{
 *{
     transition:background .15s ease,
                backdrop-filter .15s ease;
-}
-.privateChannels__35e86,
-.scroller__99e7c,
-.container__2637a,
-.sidebar_c48ade,
-.sidebarList_c48ade{
-    background: transparent !important;
 }
