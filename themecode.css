@@ -9,7 +9,6 @@
 
 .appMount__51fd7{
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
-    background: rgba(0,0,0,0.05) !important;
 }
 
 .app__160d8,
@@ -19,8 +18,7 @@
 .base__261d0,
 .content__261d0{
     background: transparent !important;
-   
-}
+   }
 
 /* =========================
    Main Containers
@@ -207,7 +205,7 @@ div[class*="contextMenu"]{
 .sidebar_c48ade,
 .sidebarList_c48ade{
     background: transparent !important;
- background: rgba(0,0,0,0.02) !important;
+ background: rgba(0,0,0,0.002) !important;
 }
 
 /* Friends Page */
@@ -216,7 +214,7 @@ div[class*="contextMenu"]{
 .tabBody__133bf,
 .nowPlayingColumn__133bf{
     background: transparent !important; 
- background: rgba(0,0,0,0.02) !important;
+ background: rgba(0,0,0,0.002) !important;
 }
 
 /* Top Bar */
@@ -225,13 +223,13 @@ div[class*="contextMenu"]{
 .chatHeaderBar,
 .headerBar{
     background: transparent !important; 
- background: rgba(0,0,0,0.02) !important;
+ background: rgba(0,0,0,0.002) !important;
 }
 
 /* Search */
 .searchBar__35e86{
     background: rgba(25,25,25,.20)!important;
- background: rgba(0,0,0,0.02) !important;
+ background: rgba(0,0,0,0.002) !important;
 }
 
 /* DM List */
@@ -241,5 +239,5 @@ div[class*="contextMenu"]{
 [class*="sidebarList"],
 [class*="content"] > [class*="sidebar"]{
     background: transparent !important; 
- background: rgba(0,0,0,0.02) !important;
+ background: rgba(0,0,0,0.002) !important;
 }
