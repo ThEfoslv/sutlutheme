@@ -199,24 +199,48 @@ div[class*="contextMenu"]{
     backdrop-filter:blur(18px)!important;
 }
 /* Left Sidebar */
-
 .privateChannels__35e86,
 .scroller__99e7c,
 .container__2637a,
 .sidebar_c48ade,
 .sidebarList_c48ade{
-    background: rgba(0,0,0,.08) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    background: rgba(0,0,0,.15) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
 }
 
-/* Friends */
-
+/* Friends Page */
 .container__133bf,
 .peopleColumn__133bf,
 .tabBody__133bf,
 .nowPlayingColumn__133bf{
-    background: rgba(0,0,0,.08) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    background: rgba(0,0,0,.15) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* Top Bar */
+.title_f75fb0,
+.title__9293f,
+.chatHeaderBar,
+.headerBar{
+    background: rgba(0,0,0,.15) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* Search */
+.searchBar__35e86{
+    background: rgba(0,0,0,.18) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* DM List */
+[class*="privateChannels"],
+[class*="privateChannels"] *,
+[class*="sidebar"] *,
+[class*="sidebarList"],
+[class*="content"] > [class*="sidebar"]{
+    background: rgba(0,0,0,.15) !important;
 }
