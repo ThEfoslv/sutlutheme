@@ -417,3 +417,49 @@ body,
 .link__2ea32:hover{
     background: rgba(255,255,255,.04) !important;
 }
+/* ===========================
+   Sohbet Alanı
+=========================== */
+
+.chat_f75fb0,
+.chatContent_f75fb0,
+.messagesWrapper__36d07,
+.scroller__36d07,
+.messageListItem__5126c{
+    background: transparent !important;
+}
+
+/* ===========================
+   Mesaj Yazma Kutusu
+=========================== */
+
+.channelTextArea_f75fb0,
+.scrollableContainer__74017,
+.themedBackground__74017,
+.form_f75fb0{
+    background: transparent !important;
+}
+
+/* Hover olunca hafif gri */
+
+.scrollableContainer__74017:hover{
+    background: rgba(255,255,255,.04) !important;
+}
+
+/* ===========================
+   Üst Başlık (Arkadaş İsmi)
+=========================== */
+
+.title_f75fb0,
+.title__9293f,
+.container__9293f,
+.upperContainer__9293f,
+.children__9293f,
+.toolbar__9293f{
+    background: transparent !important;
+}
+
+.title_f75fb0:hover,
+.title__9293f:hover{
+    background: rgba(255,255,255,.03) !important;
+}
