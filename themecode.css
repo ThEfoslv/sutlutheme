@@ -232,7 +232,11 @@ div[class*="contextMenu"]{
  background: rgba(0,0,0,0.002) !important;
 }
 
-/* Sol panel */
+
+[class*="privateChannels"] *,
+[class*="sidebar"] *{
+    background: rgba(0,0,0,0.02) !important;
+}
 .privateChannels__35e86,
 .sidebar_c48ade,
 .sidebarList_c48ade,
