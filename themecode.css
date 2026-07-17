@@ -198,4 +198,42 @@ div[class*="contextMenu"]{
     background:rgba(30,30,30,.28)!important;
     backdrop-filter:blur(18px)!important;
 }
-/* DM List */ [class*="privateChannels"], [class*="privateChannels"] *, [class*="sidebar"] *, [class*="sidebarList"], [class*="content"] > [class*="sidebar"]{ background: transparent !important; background: rgba(0,0,0,0.02) !important; }
+/* ===========================
+   DM Panel
+=========================== */
+
+[class*="privateChannels"]{
+    background: rgba(0,0,0,.02) !important;
+}
+
+/* ===========================
+   DM Panel İçi
+=========================== */
+
+[class*="privateChannels"] *{
+    background: rgba(0,0,0,.02) !important;
+}
+
+/* ===========================
+   Sol Sidebar İçi
+=========================== */
+
+[class*="sidebar"] *{
+    background: rgba(0,0,0,.02) !important;
+}
+
+/* ===========================
+   Sidebar Listesi
+=========================== */
+
+[class*="sidebarList"]{
+    background: rgba(0,0,0,.02) !important;
+}
+
+/* ===========================
+   Content Sidebar
+=========================== */
+
+[class*="content"] > [class*="sidebar"]{
+    background: rgba(0,0,0,.02) !important;
+}
