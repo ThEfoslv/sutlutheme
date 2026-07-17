@@ -173,20 +173,10 @@ div[class*="popout"]{
     transition:background .15s ease,
                backdrop-filter .15s ease;
 }
-/* Left Sidebar Glass */
-
 .privateChannels__35e86,
 .scroller__99e7c,
 .container__2637a,
 .sidebar_c48ade,
 .sidebarList_c48ade{
-    background: rgba(0,0,0,.01) !important;
-    backdrop-filter: blur(16px) !important;
-    -webkit-backdrop-filter: blur(16px) !important;
-}
-/* Discord'un kendi siyah arkaplanlarını temizle */
-[class*="sidebar"] [class*="content"],
-[class*="sidebar"] [class*="scroller"],
-[class*="privateChannels"] [class*="scroller"]{
     background: transparent !important;
 }
