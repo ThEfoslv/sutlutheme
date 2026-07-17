@@ -173,3 +173,27 @@ div[class*="popout"]{
     transition:background .15s ease,
                backdrop-filter .15s ease;
 }
+/* ===========================
+   Glass Effect
+=========================== */
+
+.panels__5e434,
+.channelTextArea_f75fb0,
+.searchBar__5ec2f,
+.embedFull__623de,
+.container__0f2e8,
+.mainCard_f369db,
+.footer__4d95d,
+.textContainer__4d95d,
+div[class*="menu"],
+div[class*="popout"],
+div[class*="contextMenu"]{
+    background:rgba(20,20,20,.25)!important;
+    backdrop-filter:blur(16px)!important;
+    -webkit-backdrop-filter:blur(16px)!important;
+}
+
+[class*="settings"]{
+    background:rgba(30,30,30,.28)!important;
+    backdrop-filter:blur(18px)!important;
+}
