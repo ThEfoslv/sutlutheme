@@ -463,3 +463,243 @@ body,
 .title__9293f:hover{
     background: rgba(255,255,255,.03) !important;
 }
+/* =====================================================
+   Sutlutheme Engine
+   https://github.com/ThEfoslv/sutlutheme
+===================================================== */
+
+/* =========================
+   Main Background
+========================= */
+
+.appMount__51fd7{
+    background: var(--theme-background-image) center/cover no-repeat fixed !important;
+}
+
+.app__160d8,
+.bg__960e4,
+.layers__960e4,
+.layer__960e4,
+.base__261d0,
+.content__261d0{
+    background: transparent !important;
+    background: rgba(0,0,0,0) !important;
+   }
+
+/* =========================
+   Main Containers
+========================= */
+
+.chat_f75fb0,
+.chatContent_f75fb0,
+.container__133bf,
+.container__2637a,
+.privateChannels__35e86,
+.membersWrap_c8ffbb,
+.members_c8ffbb,
+.sidebar_c48ade,
+.container__01ae2,
+.container_f369db,
+.wrapper_d852db,
+.wrapper_fc8177,
+.wrapper_cb9592,
+.callContainer_cb9592,
+.chatLayerWrapper__01ae2{
+    background: rgba(0,0,0,0) !important;
+}
+
+/* =========================
+   Message Box
+========================= */
+
+.channelTextArea_f75fb0{
+    background: rgba(0,0,0,0) !important;
+    backdrop-filter: blur(18px) !important;
+    border-radius:12px;
+}
+
+/* =========================
+   Menus
+========================= */
+
+div[class*="menu"],
+div[class*="contextMenu"],
+div[class*="popout"]{
+    background: rgba(20,20,20,.28) !important;
+   
+}
+
+/* =========================
+   Settings
+========================= */
+
+.standardSidebarView__23e6b,
+.sidebarRegionScroller__23e6b,
+.contentRegion__23e6b,
+.contentRegionScroller__23e6b{
+    background: rgba(25,25,25,.25) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+/* =========================
+   Profile
+========================= */
+
+.userPopoutInner_f545a3,
+.profilePanel__1fed1,
+.outer_c0bea0{
+    background: rgba(25,25,25,.28) !important;
+    backdrop-filter: blur(18px) !important;
+}
+
+/* =========================
+   Modals
+========================= */
+
+[class*="modal"],
+[class*="root"]{
+    background: rgba(25,25,25,.25) !important;
+    backdrop-filter: blur(18px) !important;
+}
+
+/* =========================
+   Search
+========================= */
+
+.searchBar__5ec2f{
+    background: rgba(30,30,30,.20) !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+/* =========================
+   Emoji / GIF / Sticker
+========================= */
+
+[class*="emoji"],
+[class*="picker"],
+[class*="gif"],
+[class*="sticker"]{
+    backdrop-filter: blur(20px) !important;
+}
+
+/* =========================
+   Embeds
+========================= */
+
+.embedFull__623de,
+.textContainer__4d95d,
+.footer__4d95d{
+    background: rgba(0,0,0,.20) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+/* =========================
+   Voice
+========================= */
+
+.root_cb9592,
+.callContainer_cb9592,
+.videoGrid__57fd8,
+.videoControls__9c6cd{
+    background: transparent !important;
+}
+
+/* =========================
+   Headers
+========================= */
+
+[class*="header"],
+[class*="titleBar"]{
+    background: transparent !important;
+}
+
+/* =========================
+   Scrollbar
+========================= */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,.18);
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:rgba(255,255,255,.30);
+}
+
+/* =========================
+   Animations
+========================= */
+
+*{
+    transition:background .15s ease,
+               backdrop-filter .15s ease;
+}
+
+/* ===========================
+   Glass Effect
+=========================== */
+
+.panels__5e434,
+.channelTextArea_f75fb0,
+.searchBar__5ec2f,
+.embedFull__623de,
+.container__0f2e8,
+.mainCard_f369db,
+.footer__4d95d,
+.textContainer__4d95d,
+div[class*="menu"],
+div[class*="popout"],
+div[class*="contextMenu"]{
+    background:rgba(20,20,20,.25)!important;
+    backdrop-filter:blur(16px)!important;
+    -webkit-backdrop-filter:blur(16px)!important;
+}
+
+[class*="settings"]{
+    background:rgba(30,30,30,.28)!important;
+    backdrop-filter:blur(18px)!important;
+}
+/* ===========================
+   DM Panel
+=========================== */
+
+[class*="privateChannels"]{
+    background: rgba(0,0,0,0) !important;
+}
+
+/* ===========================
+   DM Panel İçi
+=========================== */
+
+[class*="privateChannels"] *{
+    background: rgba(0,0,0,0) !important;
+}
+
+/* ===========================
+   Sol Sidebar İçi
+=========================== */
+
+[class*="sidebar"] *{
+    background: rgba(0,0,0,0) !important;
+}
+
+/* ===========================
+   Sidebar Listesi
+=========================== */
+
+[class*="sidebarList"]{
+    background: rgba(0,0,0,0) !important;
+}
+
+/* ===========================
+   Content Sidebar
+=========================== */
+
+[class*="content"] > [class*="sidebar"]{
+    background: rgba(0,0,0,0) !important;
+}
+
