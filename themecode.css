@@ -205,8 +205,6 @@ div[class*="contextMenu"]{
 .sidebar_c48ade,
 .sidebarList_c48ade{
     background: transparent !important;
-    backdrop-filter: blur(5px) !important;
-   
 }
 
 /* Friends Page */
@@ -214,9 +212,7 @@ div[class*="contextMenu"]{
 .peopleColumn__133bf,
 .tabBody__133bf,
 .nowPlayingColumn__133bf{
-    background: transparent !important;
-    backdrop-filter: blur(5px) !important;
-    
+    background: transparent !important;  
 }
 
 /* Top Bar */
@@ -224,16 +220,12 @@ div[class*="contextMenu"]{
 .title__9293f,
 .chatHeaderBar,
 .headerBar{
-    background: transparent !important;
-    backdrop-filter: blur(5px) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
+    background: transparent !important; 
 }
 
 /* Search */
 .searchBar__35e86{
     background: rgba(25,25,25,.20)!important;
-    backdrop-filter: blur(5px)!important;
-    
 }
 
 /* DM List */
@@ -242,7 +234,5 @@ div[class*="contextMenu"]{
 [class*="sidebar"] *,
 [class*="sidebarList"],
 [class*="content"] > [class*="sidebar"]{
-    background: transparent !important;
-    backdrop-filter: blur(5px) !important;
-    
+    background: transparent !important; 
 }
