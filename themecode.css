@@ -173,24 +173,21 @@ div[class*="popout"]{
     transition:background .15s ease,
                backdrop-filter .15s ease;
 }
-/* Sidebar Fix */
+/* Left Sidebar Glass */
 
-.sidebar_c48ade::before,
-.privateChannels__35e86::before,
-.container__2637a::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.15);
-    backdrop-filter:blur(12px);
-    -webkit-backdrop-filter:blur(12px);
-    pointer-events:none;
-    z-index:-1;
+.privateChannels__35e86,
+.scroller__99e7c,
+.container__2637a,
+.sidebar_c48ade,
+.sidebarList_c48ade{
+    background: rgba(0,0,0,.15) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
 }
 
-.sidebar_c48ade,
-.privateChannels__35e86,
-.container__2637a{
-    position:relative;
-    background:transparent !important;
+/* Discord'un kendi siyah arkaplanlarını temizle */
+[class*="sidebar"] [class*="content"],
+[class*="sidebar"] [class*="scroller"],
+[class*="privateChannels"] [class*="scroller"]{
+    background: transparent !important;
 }
