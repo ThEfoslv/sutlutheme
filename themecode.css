@@ -203,7 +203,7 @@ div[class*="contextMenu"]{
 =========================== */
 
 [class*="privateChannels"]{
-    background: rgba(0,0,0,.02) !important;
+    background: rgba(0,0,0,0) !important;
 }
 
 /* ===========================
@@ -211,7 +211,7 @@ div[class*="contextMenu"]{
 =========================== */
 
 [class*="privateChannels"] *{
-    background: rgba(0,0,0,.02) !important;
+    background: rgba(0,0,0,0) !important;
 }
 
 /* ===========================
@@ -219,7 +219,7 @@ div[class*="contextMenu"]{
 =========================== */
 
 [class*="sidebar"] *{
-    background: rgba(0,0,0,.02) !important;
+    background: rgba(0,0,0,0) !important;
 }
 
 /* ===========================
@@ -227,7 +227,7 @@ div[class*="contextMenu"]{
 =========================== */
 
 [class*="sidebarList"]{
-    background: rgba(0,0,0,.02) !important;
+    background: rgba(0,0,0,0) !important;
 }
 
 /* ===========================
@@ -235,5 +235,5 @@ div[class*="contextMenu"]{
 =========================== */
 
 [class*="content"] > [class*="sidebar"]{
-    background: rgba(0,0,0,.02) !important;
+    background: rgba(0,0,0,0) !important;
 }
