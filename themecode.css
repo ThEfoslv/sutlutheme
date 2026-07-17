@@ -205,6 +205,8 @@ div[class*="contextMenu"]{
 .sidebar_c48ade,
 .sidebarList_c48ade{
     background: transparent !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
 }
 
 /* Friends Page */
@@ -213,6 +215,8 @@ div[class*="contextMenu"]{
 .tabBody__133bf,
 .nowPlayingColumn__133bf{
     background: transparent !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
 }
 
 /* Top Bar */
@@ -221,13 +225,17 @@ div[class*="contextMenu"]{
 .chatHeaderBar,
 .headerBar{
     background: transparent !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
 }
 
 /* Search */
 .searchBar__35e86{
     background: rgba(25,25,25,.20)!important;
     backdrop-filter: blur(14px)!important;
+    -webkit-backdrop-filter: blur(14px)!important;
 }
+
 /* DM List */
 [class*="privateChannels"],
 [class*="privateChannels"] *,
@@ -235,4 +243,6 @@ div[class*="contextMenu"]{
 [class*="sidebarList"],
 [class*="content"] > [class*="sidebar"]{
     background: transparent !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
 }
