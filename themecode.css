@@ -197,3 +197,33 @@ div[class*="contextMenu"]{
     background:rgba(30,30,30,.28)!important;
     backdrop-filter:blur(18px)!important;
 }
+/* Left Sidebar */
+.privateChannels__35e86,
+.scroller__99e7c,
+.container__2637a,
+.sidebar_c48ade,
+.sidebarList_c48ade{
+    background: transparent !important;
+}
+
+/* Friends Page */
+.container__133bf,
+.peopleColumn__133bf,
+.tabBody__133bf,
+.nowPlayingColumn__133bf{
+    background: transparent !important;
+}
+
+/* Top Bar */
+.title_f75fb0,
+.title__9293f,
+.chatHeaderBar,
+.headerBar{
+    background: transparent !important;
+}
+
+/* Search */
+.searchBar__35e86{
+    background: rgba(25,25,25,.20)!important;
+    backdrop-filter: blur(14px)!important;
+}
