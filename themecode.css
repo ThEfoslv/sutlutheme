@@ -206,7 +206,7 @@ div[class*="contextMenu"]{
 .sidebarList_c48ade{
     background: transparent !important;
     backdrop-filter: blur(5px) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
+   
 }
 
 /* Friends Page */
@@ -216,7 +216,7 @@ div[class*="contextMenu"]{
 .nowPlayingColumn__133bf{
     background: transparent !important;
     backdrop-filter: blur(5px) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
+    
 }
 
 /* Top Bar */
@@ -233,7 +233,7 @@ div[class*="contextMenu"]{
 .searchBar__35e86{
     background: rgba(25,25,25,.20)!important;
     backdrop-filter: blur(5px)!important;
-    -webkit-backdrop-filter: blur(5px)!important;
+    
 }
 
 /* DM List */
@@ -244,5 +244,5 @@ div[class*="contextMenu"]{
 [class*="content"] > [class*="sidebar"]{
     background: transparent !important;
     backdrop-filter: blur(5px) !important;
-    -webkit-backdrop-filter: blur(5px) !important;
+    
 }
