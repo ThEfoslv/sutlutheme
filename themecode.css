@@ -9,6 +9,7 @@
 
 .appMount__51fd7{
     background: var(--theme-background-image) center/cover no-repeat fixed !important;
+    background: rgba(0,0,0,0.05) !important;
 }
 
 .app__160d8,
@@ -18,7 +19,7 @@
 .base__261d0,
 .content__261d0{
     background: transparent !important;
-    background: rgba(0,0,0,0.05) !important;
+   
 }
 
 /* =========================
