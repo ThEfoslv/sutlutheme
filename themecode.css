@@ -232,12 +232,22 @@ div[class*="contextMenu"]{
  background: rgba(0,0,0,0.002) !important;
 }
 
-/* DM List */
-[class*="privateChannels"],
-[class*="privateChannels"] *,
-[class*="sidebar"] *,
-[class*="sidebarList"],
-[class*="content"] > [class*="sidebar"]{
-    background: transparent !important; 
- background: rgba(0,0,0,0.02) !important;
+/* Sol panel */
+.privateChannels__35e86,
+.sidebar_c48ade,
+.sidebarList_c48ade,
+.scroller__99e7c{
+    background: rgba(0,0,0,.05) !important;
+}
+.privateChannels__35e86{
+    background: rgba(0,0,0,.05) !important;
+}
+.sidebarList_c48ade{
+    background: rgba(0,0,0,.05) !important;
+}
+.scroller__99e7c{
+    background: transparent !important;
+}
+.panels__5e434 button{
+    background: transparent !important;
 }
